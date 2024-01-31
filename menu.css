@@ -32,15 +32,15 @@
     }
 
     a:hover {
-        color: gray;
+        color: #048243;
         text-decoration: underline;
     }
 
     a {
-        color:#4e5e57;
+        color: #32BF84;        ;
         text-decoration: none;
     }
 
     a:visited {
-        color: purple;
+        color: #CAFFFB;
     }
