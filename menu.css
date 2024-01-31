@@ -30,3 +30,17 @@
     font-size: 16px;
     color: #4e5e57;
     }
+
+    a:hover {
+        color: gray;
+        text-decoration: underline;
+    }
+
+    a {
+        color:#4e5e57;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: purple;
+    }
