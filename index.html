@@ -13,15 +13,14 @@
 
 <body>
     <h1>Luscinia</h1>
-    <div class="container">
-        <div class="navbar">
-            <ul id="menuItems">
-                <li><a href="#">Carousel</a></li>
-                <li><a href="#">Grid</a></li>
-                <li><a href="#">Lightbox</a></li>
-            </ul>
-        </div>
-
+    <div class="navbar">
+        <ul id="menuItems">
+            <li onclick="updateDisplay(this)"><a href="#">Carousel</a></li>
+            <li onclick="updateDisplay(this)"><a href="#">Grid</a></li>
+            <li onclick="updateDisplay(this)"><a href="#">Lightbox</a></li>
+        </ul>
+    </div>
+    <div class="container grid">
 		<button onclick="toggleMenu()" id="menuBtn"><i class="fa-solid fa-bars"></i></button>
 		<button onclick="changeAlbumImage()" id="arrowBtn"><i class="fa-solid fa-arrow-right"></i></button>
 		<button onclick="changeAlbumImage()" id="leftBtn"><i class="fa-solid fa-arrow-left"></i></button>

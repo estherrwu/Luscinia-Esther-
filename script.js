@@ -1,5 +1,12 @@
 // Change images in website
 
+function updateDisplay(e) {
+  console.log(e);
+  for (const child of e.children) {
+    console.log(child.innerHTML);
+  }
+}
+
 function toggleMenu() {
     var menu = document.getElementById("menuItems");
     if (menu.style.display === "block") {
