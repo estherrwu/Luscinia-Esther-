@@ -1,15 +1,16 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: #5A86AD;
+    background-color: #fce997;
     font-family: 'Courier Prime', monospace;
-    color: #FDAA47;
+    color: #03ada5;
 }
 
 h1 {
     text-align: center;
     margin-top: 1em;
     font-size: 4em;
+	text-decoration: underline;
 }
 
 .container {
@@ -40,7 +41,7 @@ h1 {
 	position: absolute;
 	left: 15px;
 	font-size: 2rem;
-	color: #C85A53;
+	color: #03ada5;
 }
 
 #menuBtn:hover {
