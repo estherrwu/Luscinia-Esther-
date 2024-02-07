@@ -1,9 +1,9 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: #a9ccbd;
+    background-color: #5A86AD;
     font-family: 'Courier Prime', monospace;
-    color: #4e5e57;
+    color: #FDAA47;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
 .paper {
     height: 400px;
     width: 400px;
-    background-color: #fcfff0;
+    background-color: #98a1c8;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -40,7 +40,7 @@ h1 {
 	position: absolute;
 	left: 15px;
 	font-size: 2rem;
-	color: #4e5e57;
+	color: #C85A53;
 }
 
 #menuBtn:hover {
@@ -54,7 +54,7 @@ h1 {
 	position: fixed;
 	right: 18rem;
 	font-size: 3rem;
-	color: #4e5e57;
+	color: #C85A53;
 }
 
 #arrowBtn:hover {
@@ -68,7 +68,7 @@ h1 {
 	position: fixed;
 	left: 18rem;
 	font-size: 3rem;
-	color: #4e5e57;
+	color: #C85A53;
 }
 
 #leftBtn:hover {
